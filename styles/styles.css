@@ -1,0 +1,117 @@
+
+nav {
+    background-color: steelblue;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: steelblue;
+    padding: 10px;
+    margin: 40px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 3px solid whitesmoke;
+    border-radius: 5%;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+    margin: 40px;
+}
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 20rem;
+    color: #333;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+p { padding: 0;}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class Selectors */
+
+.box {
+    width: 25rem;
+    margin: 40px;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #fff9b6;
+    color: #000;
+}
+
+.aside {
+    width: 20em;
+    text-align: center;
+}
+
+main img {
+    float: right;
+}
+
+aside h2 {
+    position: absolute;
+    top: 565px;
+    left: 198px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #005b97;
+}
+
+ul li {
+    padding-left: 10px;
+}
