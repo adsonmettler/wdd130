@@ -92,6 +92,8 @@ h1 {
 
 h2 {
     font-weight: 800;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 /* MAIN ends */
@@ -189,33 +191,40 @@ section {
     width: 600px;
 }
 
-figure img {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
-    max-width: 200px;
-    height: auto;
-}
-
 .flexbox-container-2 {
-    display: grid;
-    justify-content: space-around;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-h2 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-}
-
-figure {
-    width: 200px;
+.img {
+    width: 700px;
     height: auto;
+    margin: -150px;
 }
 
-section img {
-    width: 200px;
-    height: auto;
+.img-1 {
+    min-height: 100px;
+}
+
+.img-2 {
+    min-height: 100px;
+}
+
+.img-3 {
+    min-height: 100px;
+    flex-shrink: 0;
+}
+
+.img-4 {
+    min-height: 100px;
+}
+
+.img-5 {
+    min-height: 100px;
 }
 
 figcaption {
@@ -224,6 +233,7 @@ figcaption {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+    max-width: 200px;
   }
 
   .sociallinks {
