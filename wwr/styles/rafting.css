@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* VARIABLES */
+
 :root {
     --primary-color: #FFDD4A;
     --secondary-color: #F4FEC1;
@@ -16,63 +18,85 @@
     --nav-hover-background-color: #094074;
 }
 
+/* BODY starts */
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 1550px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* HEADER starts */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
 }
 header {
-    padding: 0.1rem;
     background-color: var(--primary-color);
-    width: auto;
-}
-p {
-    padding: 25px;
-}
-nav {
-    background-color: var(--primary-color);
-    font-size: 1.2rem;
-    display: flex;
-    width: 1500px;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    max-width: 1550px;
 }
 
+.navigation {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    font-size: 1.2rem;
+}
 
 nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding: 1rem;
+    padding: 1rem 40px;
 }
 
-nav a:hover {
+.navigation a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-body {
-    font-family: var(--paragraph-font);
-    max-width: 1920px;
+
+/* HEADER ends */
+/* MAIN starts */
+
+main div img {
+    position: relative;
+    width: 1550px;
+    height: auto;
+    display: flex;
+    justify-content: center;
 }
-body {
-    font-family: 'Montserrat', sans-serif;
+
+p {
+    padding: 25px;
 }
+
 h1 {
     font-weight: 900;
 }
+
 h2 {
     font-weight: 800;
 }
 
+/* MAIN ends */
+/* FOOTER starts */
+
 footer {
-	bottom: 0;
+	display: flex;
+    bottom: 0;
     background-color: var(--primary-color);
     font-size: 1rem;
-    display: flex;
     width: auto;
+    justify-content: center;
 }
 
 footer nav a {
-    display: block;
+    display: flex;
     color: var(--nav-link-color);
     text-decoration: none;
     padding-left: 50px;
@@ -82,47 +106,32 @@ footer p {
     text-align: center;
 }
 
-/* Class sections */
+/* Class and sections */
 
-main div img {
-    position: relative;
-    width: 100%;
-    height: auto;
+.grid img {
+    position: absolute;
+    left: 300px;
 }
 
 .hero {
-    margin: 10px auto;
     position: relative;
     width: 1500px;
     height: auto;
-    margin: 20px;
 }
 
 .hero h1 {
     position: absolute;
-    font-size: 50px;
+    font-size: 40px;
     height: auto;
     top: 20px;
-    left: 250px;
-    padding-right: 250px;
-    padding-left: 250px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    left: 50px;
+    padding-right: 500px;
+    padding-left: 500px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     background-color: rgba(0, 54, 125, 0.4);
     color: var(--primary-color);
-}
-
-.hero article p {
-    position: absolute;
-    display: block;
-    top: 210px;
-    left: 300px;
-    width: 550px;
-    padding-right: 280px;
-    padding-bottom: 100px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: #ffffff;
-    margin: auto;
+    text-align: center;
 }
 
 .hero article img {
@@ -130,13 +139,80 @@ main div img {
     display: block;
     width: 15%;
     height: auto;
-    top: 240px;
+    top: 280px;
     left: 900px;
     margin: auto;
+    z-index: 1;
 }
 
 .hero section img {
     display: block;
     width: 45%;
     height: auto;
+}
+
+.hero article p {
+    position: absolute;
+    display: block;
+    top: 260px;
+    left: 300px;
+    width: 550px;
+    padding-right: 280px;
+    padding-bottom: 90px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    margin: auto;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+.flexbox-item {
+    width: 600px;
+}
+
+figure img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 80px;
+    height: auto;
+}
+
+.flexbox-container-2 {
+    display: grid;
+    justify-content: space-around;
+}
+
+h2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+}
+
+figure {
+    width: 200px;
+}
+
+section img {
+    width: 200px;
+    height: auto;
+}
+
+figcaption {
+    background-color: var(--accent2-color);
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+
+  .sociallinks {
+    display: flex;
 }
