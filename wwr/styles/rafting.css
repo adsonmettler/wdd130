@@ -18,11 +18,17 @@
     --nav-hover-background-color: #094074;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* BODY starts */
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 1550px;
+    max-width: 1600px;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -38,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 header {
     background-color: var(--primary-color);
     display: grid;
-    max-width: 1550px;
+    max-width: 1600px;
 }
 
 .navigation {
@@ -60,12 +66,17 @@ nav a {
     background-color: var(--nav-hover-background-color);
 }
 
+header img {
+    position: absolute;
+    z-index: 1;
+}
+
 /* HEADER ends */
 /* MAIN starts */
 
 main div img {
     position: relative;
-    width: 1550px;
+    width: 1600px;
     height: auto;
     display: flex;
     justify-content: center;
@@ -123,8 +134,8 @@ footer p {
     position: absolute;
     font-size: 40px;
     height: auto;
-    top: 20px;
-    left: 50px;
+    top: 40px;
+    left: 80px;
     padding-right: 500px;
     padding-left: 500px;
     padding-bottom: 15px;
@@ -139,7 +150,7 @@ footer p {
     display: block;
     width: 15%;
     height: auto;
-    top: 280px;
+    top: 380px;
     left: 900px;
     margin: auto;
     z-index: 1;
@@ -154,11 +165,11 @@ footer p {
 .hero article p {
     position: absolute;
     display: block;
-    top: 260px;
-    left: 300px;
-    width: 550px;
+    top: 360px;
+    left: 500px;
+    width: 650px;
     padding-right: 280px;
-    padding-bottom: 90px;
+    padding-bottom: 50px;
     background-color: rgba(0, 0, 0, 0.5);
     color: #ffffff;
     margin: auto;
@@ -171,6 +182,7 @@ section {
 
 .flexbox-container {
     display: flex;
+    padding-top: 20px;
 }
 
 .flexbox-item {
@@ -181,7 +193,7 @@ figure img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
-    max-width: 80px;
+    max-width: 200px;
     height: auto;
 }
 
@@ -198,6 +210,7 @@ h2 {
 
 figure {
     width: 200px;
+    height: auto;
 }
 
 section img {

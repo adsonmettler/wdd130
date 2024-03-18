@@ -1,47 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 61.57 66.93">
-  <defs>
-    <style>
-      .cls-1 {
-        fill: url(#radial-gradient);
-        mix-blend-mode: multiply;
-        opacity: .8;
-      }
-
-      .cls-1, .cls-2, .cls-3 {
-        stroke-width: 0px;
-      }
-
-      .cls-2 {
-        fill: #000;
-      }
-
-      .cls-4 {
-        isolation: isolate;
-      }
-
-      .cls-3 {
-        fill: #fff;
-      }
-    </style>
-    <radialGradient id="radial-gradient" cx="31.88" cy="37.24" fx="31.88" fy="37.24" r="29.68" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#000057"/>
-      <stop offset=".39" stop-color="rgba(116, 116, 164, .54)" stop-opacity=".54"/>
-      <stop offset=".79" stop-color="rgba(216, 216, 229, .15)" stop-opacity=".15"/>
-      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
-    </radialGradient>
-  </defs>
-  <g class="cls-4">
-    <g id="Layer_2" data-name="Layer 2">
-      <g id="ELEMENTS">
-        <g>
-          <circle class="cls-1" cx="31.88" cy="37.24" r="29.68"/>
-          <g>
-            <circle class="cls-2" cx="23.83" cy="23.83" r="23.83"/>
-            <path class="cls-3" d="M25.85,22.16l7.9-9.19h-1.87l-6.86,7.98-5.48-7.98h-6.32l8.29,12.06-8.29,9.63h1.87l7.25-8.42,5.79,8.42h6.32l-8.6-12.51h0ZM23.29,25.14l-.84-1.2-6.68-9.56h2.88l5.39,7.71.84,1.2,7.01,10.03h-2.88l-5.72-8.18h0Z"/>
-          </g>
-        </g>
-      </g>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 61.6 66.9" style="enable-background:new 0 0 61.6 66.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.8;fill:url(#SVGID_1_);enable-background:new    ;}
+	.st1{fill:#094074;}
+	.st2{fill:#FFFFFF;}
+</style>
+<g id="Layer_2_00000169525192736432628570000005923444329802588810_">
+	<g id="ELEMENTS">
+		<g>
+			
+				<radialGradient id="SVGID_1_" cx="31.88" cy="30.76" r="29.68" gradientTransform="matrix(1 0 0 -1 0 68)" gradientUnits="userSpaceOnUse">
+				<stop  offset="0" style="stop-color:#000057"/>
+				<stop  offset="0.39" style="stop-color:#000000;stop-opacity:0.54"/>
+				<stop  offset="0.79" style="stop-color:#000000;stop-opacity:0.15"/>
+				<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+			</radialGradient>
+			<circle class="st0" cx="31.9" cy="37.2" r="29.7"/>
+			<g>
+				<circle class="st1" cx="23.8" cy="23.8" r="23.8"/>
+				<path class="st2" d="M25.9,22.2l7.9-9.2h-1.9L25,21l-5.5-8h-6.3L21.5,25l-8.3,9.6h1.9l7.2-8.4l5.8,8.4h6.3L25.9,22.2L25.9,22.2
+					L25.9,22.2z M23.3,25.1l-0.8-1.2l-6.7-9.6h2.9l5.4,7.7l0.8,1.2l7,10H29L23.3,25.1C23.3,25.1,23.3,25.1,23.3,25.1z"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
