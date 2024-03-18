@@ -21,9 +21,9 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent2-color);
 }
 header {
-    padding: 20px;
+    padding: 0.1rem;
     background-color: var(--primary-color);
-    width: 1500px;
+    width: auto;
 }
 p {
     padding: 25px;
@@ -33,7 +33,11 @@ nav {
     font-size: 1.2rem;
     display: flex;
     width: 1500px;
+    justify-content: center;
+    align-items: center;
 }
+
+
 nav a {
     display: block;
     color: var(--nav-link-color);
@@ -47,8 +51,7 @@ nav a:hover {
 }
 body {
     font-family: var(--paragraph-font);
-    max-width: 1500px;
-    padding: 20px;
+    max-width: 1920px;
 }
 body {
     font-family: 'Montserrat', sans-serif;
@@ -65,7 +68,7 @@ footer {
     background-color: var(--primary-color);
     font-size: 1rem;
     display: flex;
-    width: 1500px;
+    width: auto;
 }
 
 footer nav a {
