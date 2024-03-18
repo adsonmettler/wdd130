@@ -171,8 +171,8 @@ footer p {
     left: 500px;
     width: 650px;
     padding-right: 280px;
-    padding-bottom: 50px;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.65);
     color: #ffffff;
     margin: auto;
 }
