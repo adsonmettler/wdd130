@@ -94,6 +94,7 @@ h2 {
     font-weight: 800;
     text-align: center;
     padding-bottom: 20px;
+    font-size: 28px;
 }
 
 /* MAIN ends */
@@ -189,6 +190,13 @@ section {
 
 .flexbox-item {
     width: 600px;
+}
+
+/* GRID OF IMAGES using FLEXBOX */
+
+div h2 {
+    padding-top: 40px;
+    padding-bottom: 5px;
 }
 
 .flexbox-container-2 {
