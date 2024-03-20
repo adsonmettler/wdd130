@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color: #094074;
+    background-color: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #094074;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #FFDD4A;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+legend {
+    padding: 10px;
+    color: #094074;
+    font-size: 20px;
+}
+
+label, input, button, select, textarea {
+    font-family: Arial, sans-serif;
+}
+
+label {
+    text-align: right;
+    padding-right: 15px;
+}
+
+input, select, textarea {
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 10px;
+    background-color: #094074;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #F4FEC1;
+    color: #094074;
+}
+
+footer {
+    margin: 10px auto 0;
+    padding-bottom: 10px;
+    width: 650px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    border-top: 1px solid #ccc;
+}
+
+/* CLASS conditions */
+
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 10px 0;
+    grid-column: 1;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.column1 label {
+    display: flex;
+    justify-content: left;
+    padding-bottom: 20px;
+}
+
