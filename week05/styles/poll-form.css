@@ -114,7 +114,7 @@ footer {
     grid-template-columns: 1fr 2fr;
 }
 
-.column1 label {
+.column1, label {
     display: flex;
     justify-content: left;
     padding-bottom: 20px;
