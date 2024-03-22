@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    color: #094074;
+    background-color: #fff;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: #094074;
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto 50px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #FFDD4A;
+    display: grid;
+}
+
+
+h2 {
+    padding: 10px;
+    color: #094074;
+    font-size: 20px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+label, input, button, select, textarea {
+    font-family: Arial, sans-serif;
+}
+
+input, select, textarea {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin: 40px 0 10px;
+    background-color: #094074;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #F4FEC1;
+    color: #094074;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column img {
+    padding: 10px 0 25px;
+    align-self: center;
+}
