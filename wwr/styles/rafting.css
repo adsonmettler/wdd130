@@ -256,3 +256,139 @@ figcaption {
   .sociallinks {
     display: flex;
 }
+
+
+/* EMPLOYER at Contact Page */
+
+.employergrid {
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+
+.employergrid h1 {
+    position: absolute;
+    z-index: 1;
+    top: 160px;
+}
+
+.employer {
+    width: 200px;
+}
+
+.employer img {
+    width: 200px;
+    height: auto;
+    align-items: center;
+}
+
+/* EMPLOYERS end page */
+
+/* FORM STYLE */
+
+form {
+    width: 650px;
+    margin: 0 auto 50px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #FFDD4A;
+    display: grid;
+}
+
+
+h2 {
+    padding: 10px;
+    color: #094074;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+label {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+label, input, button, select, textarea {
+    font-family: Arial, sans-serif;
+}
+
+input, select, textarea {
+    padding: 20px;
+    font-size: 16px;
+}
+
+input {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 40px 0 10px;
+    background-color: #094074;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #F4FEC1;
+    color: #094074;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+
+
+/* CONTACT INFO PAGE starts */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 80px;
+}
+
+.contact-item {
+    padding-top: 140px;
+    padding-bottom: 80px;
+}
+
+.contact-item img {
+    width: 40px;
+}
+
+.contact-item-1 {
+    position: absolute;
+    z-index: 1;
+    justify-self: center;
+    top: 1150px;
+    font-size: 40px;
+}
+
+.contact-item-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-item-3 {
+    padding-left: 150px;
+}
+
+.contact-item-3 h3 {
+    padding-bottom: 20px;
+}
+
+.contact-item-3 iframe {
+    width: 500px;
+    height: 300px;
+}
