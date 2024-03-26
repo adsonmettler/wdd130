@@ -322,7 +322,6 @@ input, select, textarea {
 }
 
 input {
-    width: 22px;
     height: 22px;
     vertical-align: bottom;
 }
@@ -335,13 +334,9 @@ input {
 .radio {
     display: inline-flex;
     align-items: center;
-    cursor: pointer;
     margin-right: 10px;
 }
 
-.radio_input {
-    transform: scale(0);
-}
 
 
 button {
@@ -361,12 +356,18 @@ button:hover {
 
 .form-item {
     display: grid;
-    align-items: center;
 }
 
-.checkbox {
-    display: inline-flex;
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
     margin-right: 10px;
+}
+
+.checkbox label {
+    display: inline-flex;
+    padding-top: 20px;
 }
 
 
