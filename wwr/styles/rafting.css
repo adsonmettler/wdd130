@@ -120,6 +120,19 @@ footer p {
     text-align: center;
 }
 
+.wireframe {
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.wireframe:hover {
+    justify-content: center;
+    align-items: center;
+    background-color: #094074;
+    color: #ffffff;
+}
+
 /* Class and sections */
 
 .grid img {
