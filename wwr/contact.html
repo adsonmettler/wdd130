@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | WeRadical website</title>
+    <title>Contact Us | WeRadical website</title>
     <meta name="description" content="To make every rafting excursion with WeRadical an unparalleled, sought-after experience, ensuring a surge in bookings and delighted customers. Embark on the river of excitement. Your next adventure starts here!">
     <meta name="author" content="Adson Mettler do Nascimento">
     <link rel="stylesheet" href="styles/rafting.css">
@@ -41,22 +41,31 @@
                 <label for="q2">Email</label>
                 <input type="text" id="q2" name="q2">
             </div>
+            <p class="radio-message">The purpose of the message:</p>
             <div class="form-item column">
-                <label for="q3">The purpose of the message:</label>
-                <select id="q3" name="q3">
-                    <option value="" selected disabled>Choose one ...</option>
-                    <option value="General Inquiry">General Inquiry</option>
-                    <option value="Reservation Question">Reservation Question</option>
-                    <option value="Website Suggestion">Website Suggestion</option>
-                </select>
+                <label for="sendform" class="radio">
+                    <input type="radio" name="sendform" id="sendform" class="radio_input">
+                    <div class="radio_radio"></div>
+                    General Inquiry
+                </label>
+                <label for="sendform" class="radio">
+                    <input type="radio" name="sendform" id="sendform" class="radio_input">
+                    <div class="radio_radio"></div>
+                    Reservation Question
+                </label>
+                <label for="sendform" class="radio">
+                    <input type="radio" name="sendform" id="sendform" class="radio_input">
+                    <div class="radio_radio"></div>
+                    Website Suggestion
+                </label>
             </div>
             <div class="form-item column">
                 <label for="q4">Message</label>
                 <textarea id="q4" name="q4" rows="4" placeholder="Text here..."></textarea>
             </div>
-            <div class="form-item column">
-                <label for="pet">Please subscribe me to the monthly newsletter</label>
-                <input type="checkbox" id="pet" name="pet">
+            <div class="form-item checkbox">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
             </div>
             <button type="submit">Send</button>
         </form>
@@ -72,8 +81,8 @@
                 <p><img src="images/email.svg" alt="icon email" width="50">weradical@contact.com</p>
             </div>
             <div class="contact-item contact-item-3">
-                <h3>Find Us On The Map</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6872.575138772284!2d-115.57893195602806!3d51.18182849818172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1711391920206!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- <h3>Find Us On The Map</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6872.575138772284!2d-115.57893195602806!3d51.18182849818172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1711391920206!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
             </div>
         </div>
     </main>
