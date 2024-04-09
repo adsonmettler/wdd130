@@ -205,6 +205,32 @@ section {
     width: 600px;
 }
 
+
+.flexbox-button .button {
+    position: absolute;
+    display: block;
+    justify-content: center;
+    width: 300px;
+    top: 450px;
+    left: 650px;
+    margin: 40px 0 10px;
+    background-color: #FFDD4A;
+    color: #094074;
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.flexbox-button:hover .button {
+    background-color: #094074;
+    color: #ffffff;
+    text-decoration: none;
+}
+
 /* GRID OF IMAGES using FLEXBOX */
 
 div h2 {
@@ -301,9 +327,14 @@ figcaption {
 
 /* FORM STYLE */
 
+.form-container {
+    position: relative;
+    left: 60px;
+}
+
 form {
     width: 650px;
-    margin: 0 auto 50px;
+    margin: 40px auto 20px;
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
@@ -426,4 +457,67 @@ input[type="checkbox"] {
 .contact-item-3 iframe {
     width: 500px;
     height: 300px;
+}
+
+
+/* HOME PAGE BODY SECTION 3 */
+
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 20px;
+    max-height: 800px;
+}
+
+.header h1 {
+    position: relative;
+    text-align: center;
+    left: -20px;
+    width: 1600px;
+    margin-bottom: 30px;
+    z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(2, 46, 104);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: space-around;
+    width: 1550px;
+}
+
+.image {
+    overflow: hidden;
+    position: relative; /* Add position relative to create stacking context */
+}
+
+.image img {
+    justify-content: space-around;
+    width: 500px;
+    height: 400px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.text {
+    position: relative; /* Position absolutely relative to the image */
+    bottom: 0; /* Align to the bottom of the image */
+    width: auto;
+    background-color: rgb(2, 46, 104, 1); /* Dark transparent background */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.text h2 {
+    color: #fff;
+}
+
+.text p {
+    margin: 0;
 }
