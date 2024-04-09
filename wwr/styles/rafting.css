@@ -161,6 +161,33 @@ footer p {
     text-align: center;
 }
 
+.hero-trip h1 {
+    position: absolute;
+    font-size: 40px;
+    height: auto;
+    top: 250px;
+    left: 80px;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgba(0, 54, 125, 0.4);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.hero-trip h3 {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    left: 560px;
+    bottom: 340px;
+    z-index: 0;
+    color: #fff;
+    font-weight: 300;
+}
+
 .hero article img {
     position: absolute;
     display: block;
@@ -509,11 +536,11 @@ input[type="checkbox"] {
 }
 
 .text {
-    position: relative; /* Position absolutely relative to the image */
+    position: relative;
     bottom: 0; /* Align to the bottom of the image */
     width: auto;
-    background-color: rgb(2, 46, 104, 1); /* Dark transparent background */
-    color: #fff; /* White text color */
+    background-color: rgb(2, 46, 104, 1);
+    color: #fff;
     padding: 10px;
     border-radius: 10px;
     margin-top: 60px;
@@ -528,4 +555,79 @@ input[type="checkbox"] {
 
 .text p {
     margin: 0;
+}
+
+
+/* TRIPS PAGE SECTION TRIPS FEATURES */
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.feature {
+    width: 30%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.description h2 {
+    margin-top: 0;
+}
+
+.description p {
+    color: #666;
+}
+
+
+/* TRIPS PAGE SECTION TABLE */
+
+.table-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.table-container h2 {
+    margin-bottom: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid var(--accent2-color);
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: #094074;
+    font-size: 18px;
+    font-family: var(--heading-font)
+}
+
+td {
+    font-size: 16px;
+}
+
+.note {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 14px;
 }
