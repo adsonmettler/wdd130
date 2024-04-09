@@ -194,7 +194,7 @@ footer p {
     width: 15%;
     height: auto;
     top: 380px;
-    left: 900px;
+    left: 870px;
     margin: auto;
     z-index: 1;
 }
@@ -209,7 +209,7 @@ footer p {
     position: absolute;
     display: block;
     top: 360px;
-    left: 500px;
+    left: 470px;
     width: 650px;
     padding-right: 280px;
     padding-bottom: 30px;
@@ -225,11 +225,20 @@ section {
 
 .flexbox-container {
     display: flex;
-    padding-top: 20px;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-bottom: 40px;
 }
 
 .flexbox-item {
-    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    max-width: 800px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 100px;
 }
 
 
@@ -260,64 +269,48 @@ section {
 
 /* GRID OF IMAGES using FLEXBOX */
 
-div h2 {
-    padding-top: 40px;
-    padding-bottom: 5px;
-}
-
-.h2 {
-    color: rgba(0, 0, 0, 0.0);
-    z-index: 1;
-    align-self: flex-start;
-}
-
 
 .flexbox-container-2 {
-    height: 800px;
     display: flex;
-    flex-direction: row;
-    justify-content: right;
-    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-bottom: 40px;
+}
+
+.heading-container {
+    margin-bottom: 20px;
+}
+
+.flexbox-item-2 {
+    display: flex;
     flex-wrap: wrap;
+    max-width: 1500px;
 }
 
 .img {
-    width: 700px;
+    flex: 1;
+    margin: 10px;
+    position: relative;
+}
+
+.img img {
+    width: 100%;
     height: auto;
-    margin: -150px;
+    border-radius: 5px;
 }
 
-.img-1 {
-    min-height: 100px;
-}
-
-.img-2 {
-    min-height: 100px;
-}
-
-.img-3 {
-    min-height: 100px;
-    flex-shrink: 0;
-    align-self: flex-start;
-    width: 800px;
-}
-
-.img-4 {
-    min-height: 100px;
-}
-
-.img-5 {
-    min-height: 100px;
-}
-
-figcaption {
+.img figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: var(--accent2-color);
     color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
+    padding: 5px;
     text-align: center;
-    max-width: 200px;
-  }
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
 
   .sociallinks {
     display: flex;
